@@ -1,7 +1,10 @@
 <template>
   <div class="card">
-    <div class="title">{{post.data.title}}</div>
-    <span class="author">{{this.post.data.author}}</span>
+    <div class="card-content">
+      <div class="title">{{post.data.title}}</div>
+      <span class="author">{{post.data.author}}</span>
+      <span class="score">{{post.data.score}}</span>
+    </div>
   </div>
 </template>
 <script>
@@ -21,11 +24,11 @@
     border-bottom: 3px solid rgba(33, 33, 33, 0.19);
   }
   
-  .card>.title {
-    text-align: justify;
+  .card .card-content >.title {
+    text-align: left
   }
   
-  .card>.author {
+  .card .card-content >.author {
     text-align: left;
     font-size: 12px;
     color: white;
@@ -33,6 +36,15 @@
     width: auto;
     background: black;
     float: left
+  }
+
+  .card .card-content >.score{
+    text-align: left;
+    font-size: 12px;
+    color: #4A354E;
+    float: left;
+    margin-left: 20px;
+    padding-top: 6px;
   }
 
 </style>
