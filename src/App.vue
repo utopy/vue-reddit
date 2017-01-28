@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <card></card>
+    <cards></cards>
   </div>
 </template>
 
 <script>
-import card from './components/cards'
+import cards from './components/cards'
 
 export default {
   name: 'app',
   components: {
-    card
+    cards
   }
 }
 </script>

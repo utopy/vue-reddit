@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="title">{{post.data.title}}</div>
-    <span class="author">{{post.data.author}}</span>
+    <span class="author">{{this.post.data.author}}</span>
   </div>
 </template>
 <script>
@@ -13,11 +13,6 @@
 
 </script>
 <style>
-  .card-container {
-    width: 400px;
-    margin: auto;
-  }
-  
   .card {
     margin-bottom: 5px;
     background-color: white;
