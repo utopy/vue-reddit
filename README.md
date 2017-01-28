@@ -4,6 +4,6 @@ This project aims to create a third-party version of reddit, focused on design a
 
 ![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)
 ![forthebadge](http://forthebadge.com/images/badges/gluten-free.svg)
-![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)]
+![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)
 
 
